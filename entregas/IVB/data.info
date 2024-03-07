@@ -1,0 +1,1421 @@
+cardId
+20174
+['HERO_08xbp' 'HERO_08xbp2' 'CS2_188o' ... 'TSC_032t' 'TSC_032t2'
+ 'TSC_032']
+------------
+cardId
+HERO_08xbp        1
+CS3_009           1
+CORE_FP1_031      1
+CORE_CS2_076      1
+CORE_CS2_080      1
+                 ..
+TRLA_Priest_09    1
+TRLA_Druid_06     1
+TRLA_809e2        1
+TRLA_809e         1
+TSC_032           1
+Name: count, Length: 20174, dtype: int64
+20174
+____________________________________
+dbfId
+20174
+[82520 82521   809 ... 72001 72003 72007]
+------------
+dbfId
+82520    1
+62463    1
+69714    1
+69525    1
+69527    1
+        ..
+54187    1
+52919    1
+53058    1
+53057    1
+72007    1
+Name: count, Length: 20174, dtype: int64
+20174
+____________________________________
+name
+14414
+['Fireblast' 'Fireblast Rank 2' "'Inspired'" ... 'Minion Counter'
+ 'Spell Counter' 'Blademaster Okani']
+------------
+name
+???                  41
+Transfer Student     31
+Bru'kan              31
+Jade Golem           30
+Rokara               26
+                     ..
+Desert Obelisk        1
+Duchess               1
+Duke                  1
+EVIL Demon            1
+Blademaster Okani     1
+Name: count, Length: 14414, dtype: int64
+14414
+____________________________________
+cardSet
+39
+['Basic' 'Classic' 'Hall of Fame' 'Missions' 'Naxxramas'
+ 'Goblins vs Gnomes' 'Blackrock Mountain' 'The Grand Tournament' 'Credits'
+ 'Hero Skins' 'Tavern Brawl' 'The League of Explorers'
+ 'Whispers of the Old Gods' 'One Night in Karazhan'
+ 'Mean Streets of Gadgetzan' "Journey to Un'Goro"
+ 'Knights of the Frozen Throne' 'Kobolds & Catacombs' 'The Witchwood'
+ 'The Boomsday Project' "Rastakhan's Rumble" 'Rise of Shadows'
+ 'Taverns of Time' 'Saviors of Uldum' 'Descent of Dragons'
+ "Galakrond's Awakening" 'Ashes of Outland' 'Scholomance Academy'
+ 'Battlegrounds' 'Demon Hunter Initiate' 'Madness At The Darkmoon Faire'
+ 'Forged in the Barrens' 'Legacy' 'Core' 'Vanilla' 'United in Stormwind'
+ 'Mercenaries' 'Fractured in Alterac Valley' 'Voyage to the Sunken City']
+------------
+cardSet
+Mercenaries                      4876
+Tavern Brawl                     1816
+Battlegrounds                    1329
+Forged in the Barrens            1073
+Rise of Shadows                   804
+Saviors of Uldum                  799
+Fractured in Alterac Valley       655
+Madness At The Darkmoon Faire     631
+United in Stormwind               595
+Kobolds & Catacombs               551
+The Witchwood                     506
+Vanilla                           504
+Rastakhan's Rumble                481
+Scholomance Academy               407
+The Boomsday Project              405
+Ashes of Outland                  405
+Classic                           388
+Knights of the Frozen Throne      301
+Hero Skins                        300
+Galakrond's Awakening             282
+Legacy                            279
+Mean Streets of Gadgetzan         260
+Core                              260
+The League of Explorers           258
+Descent of Dragons                246
+Journey to Un'Goro                229
+One Night in Karazhan             227
+Blackrock Mountain                226
+Whispers of the Old Gods          218
+The Grand Tournament              203
+Goblins vs Gnomes                 183
+Naxxramas                         165
+Credits                           117
+Missions                           63
+Taverns of Time                    49
+Hall of Fame                       48
+Demon Hunter Initiate              29
+Voyage to the Sunken City           4
+Basic                               2
+Name: count, dtype: int64
+39
+____________________________________
+type
+7
+['Hero Power' 'Enchantment' 'Spell' 'Hero' 'Minion' 'Weapon' nan]
+------------
+type
+Minion         5887
+Spell          3967
+Enchantment    3625
+Hero           1606
+Hero Power     1525
+Weapon          307
+Name: count, dtype: int64
+6
+____________________________________
+text
+11758
+['<b>Hero Power</b>\\nDeal $1 damage.'
+ '<b>Hero Power</b>\\nDeal $2 damage.'
+ 'This minion has +2 Attack this turn.' ...
+ '[x]<b>Counter</b> the next minion\\nyour opponent plays.'
+ '<b>Counter</b> the next spell your opponent plays.'
+ '[x]<b>Battlecry:</b> <b>Secretly</b> choose to\\n<b>Counter</b> the next minion or\\nspell your opponent plays\\nwhile this is alive.']
+------------
+text
+<b>Taunt</b>                                                                                                                          209
++1/+1.                                                                                                                                154
+Increased stats.                                                                                                                      124
++2/+2.                                                                                                                                121
+<b>Rush</b>                                                                                                                            89
+                                                                                                                                     ... 
+<b>Twinspell</b>\nDestroy a minion. Summon 2 minions of the same Cost to replace it.                                                    1
+Destroy a minion. Summon 2 minions of the same Cost to replace it.                                                                      1
+[x]<b>Stealth</b>\nAfter this minion attacks\na hero, steal a card from\n   your opponent's hand.                                       1
+[x]<b>Battlecry:</b> Deal 4 damage\nto all enemy minions.\n<b>Deathrattle:</b> Shuffle\nthis into your deck.                            1
+[x]<b>Battlecry:</b> <b>Secretly</b> choose to\n<b>Counter</b> the next minion or\nspell your opponent plays\nwhile this is alive.      1
+Name: count, Length: 11757, dtype: int64
+11757
+____________________________________
+playerClass
+15
+['Mage' 'Neutral' 'Priest' 'Shaman' 'Warrior' 'Hunter' 'Paladin' 'Warlock'
+ 'Rogue' 'Druid' 'Dream' 'Demon Hunter' nan 'Death Knight' 'Whizbang']
+------------
+playerClass
+Neutral         8632
+Druid            959
+Warrior          873
+Warlock          832
+Mage             821
+Hunter           797
+Rogue            779
+Shaman           759
+Paladin          745
+Priest           679
+Demon Hunter     372
+Death Knight      47
+Dream             11
+Whizbang           2
+Name: count, dtype: int64
+14
+____________________________________
+locale
+1
+['enUS']
+------------
+locale
+enUS    20174
+Name: count, dtype: int64
+1
+____________________________________
+rarity
+6
+['Free' nan 'Legendary' 'Common' 'Epic' 'Rare']
+------------
+rarity
+Common       1995
+Rare         1263
+Legendary     980
+Epic          873
+Free          629
+Name: count, dtype: int64
+5
+____________________________________
+health
+90
+[     nan 1.50e+01 1.00e+00 2.00e+00 4.00e+00 3.00e+00 5.00e+00 7.00e+00
+ 6.00e+00 8.00e+00 9.00e+00 3.00e+01 1.20e+01 2.00e+01 1.00e+01 2.60e+01
+ 2.50e+01 4.50e+01 1.40e+01 5.50e+01 4.00e+01 9.90e+01 7.50e+01 1.10e+01
+ 5.00e+01 6.00e+01 1.50e+04 8.00e+01 1.00e+03 1.00e+02 4.00e+02 0.00e+00
+ 9.50e+01 3.50e+01 2.00e+02 8.50e+01 1.30e+01 1.60e+01 1.70e+01 1.80e+01
+ 1.90e+01 2.10e+01 2.20e+01 2.30e+01 2.40e+01 2.70e+01 2.80e+01 2.90e+01
+ 7.00e+01 3.00e+02 1.50e+02 9.00e+01 9.99e+02 3.90e+01 7.30e+01 1.40e+02
+ 7.10e+01 2.80e+02 3.70e+01 6.50e+01 2.50e+02 1.60e+02 2.30e+02 4.40e+01
+ 8.20e+01 7.20e+01 7.60e+01 5.00e+02 7.40e+01 3.80e+01 4.80e+01 3.10e+01
+ 8.70e+01 3.20e+01 4.10e+01 7.90e+01 6.30e+01 8.40e+01 8.30e+01 7.80e+01
+ 8.10e+01 4.60e+01 7.70e+01 6.90e+01 6.60e+01 8.80e+01 1.20e+02 5.50e+02
+ 4.50e+02 1.25e+02]
+------------
+health
+30.0     904
+3.0      798
+4.0      797
+2.0      775
+1.0      702
+        ... 
+48.0       1
+140.0      1
+280.0      1
+160.0      1
+27.0       1
+Name: count, Length: 89, dtype: int64
+89
+____________________________________
+mechanics
+530
+[nan "[{'name': 'OneTurnEffect'}]" "[{'name': 'Summoned'}]"
+ "[{'name': 'Silence'}]" "[{'name': 'Battlecry'}]"
+ "[{'name': 'Divine Shield'}]" "[{'name': 'Stealth'}]"
+ "[{'name': 'Overload'}, {'name': 'Windfury'}]" "[{'name': 'Secret'}]"
+ "[{'name': 'Stealth'}, {'name': 'Secret'}]" "[{'name': 'Overload'}]"
+ "[{'name': 'Charge'}]" "[{'name': 'Deathrattle'}]"
+ "[{'name': 'AffectedBySpellPower'}]" "[{'name': 'Taunt'}]"
+ "[{'name': 'Windfury'}]"
+ "[{'name': 'Divine Shield'}, {'name': 'Battlecry'}]"
+ "[{'name': 'Deathrattle'}, {'name': 'Spell Damage'}]"
+ "[{'name': 'Combo'}]" "[{'name': 'AdjacentBuff'}, {'name': 'Aura'}]"
+ "[{'name': 'Aura'}]" "[{'name': 'Stealth'}, {'name': 'Poisonous'}]"
+ "[{'name': 'Taunt'}, {'name': 'Battlecry'}]"
+ "[{'name': 'Battlecry'}, {'name': 'Charge'}]" "[{'name': 'Freeze'}]"
+ "[{'name': 'Poisonous'}]" "[{'name': 'Overload'}, {'name': 'Taunt'}]"
+ "[{'name': 'Silence'}, {'name': 'Battlecry'}]"
+ "[{'name': 'Secret'}, {'name': 'Battlecry'}]"
+ "[{'name': 'Battlecry'}, {'name': 'Combo'}]"
+ "[{'name': 'Spell Damage'}, {'name': 'Battlecry'}]"
+ "[{'name': 'Stealth'}, {'name': 'Battlecry'}]"
+ "[{'name': 'Taunt'}, {'name': 'Deathrattle'}]"
+ "[{'name': 'Taunt'}, {'name': 'Rush'}]" "[{'name': 'Rush'}]"
+ "[{'name': 'Charge'}, {'name': 'Divine Shield'}]"
+ "[{'name': 'ImmuneToSpellpower'}]"
+ "[{'name': 'Battlecry'}, {'name': 'Freeze'}]"
+ "[{'name': 'Taunt'}, {'name': 'Divine Shield'}]"
+ "[{'name': 'Charge'}, {'name': 'Divine Shield'}, {'name': 'Windfury'}, {'name': 'Taunt'}]"
+ "[{'name': 'Divine Shield'}, {'name': 'Taunt'}, {'name': 'Deathrattle'}]"
+ "[{'name': 'Spell Damage'}]" "[{'name': 'Morph'}]"
+ "[{'name': 'Battlecry'}, {'name': 'Spell Damage'}]"
+ "[{'name': 'Charge'}, {'name': 'Battlecry'}]" "[{'name': 'AIMustPlay'}]"
+ "[{'name': 'AIMustPlay'}, {'name': 'Freeze'}]"
+ "[{'name': 'InvisibleDeathrattle'}]"
+ "[{'name': 'Charge'}, {'name': 'Deathrattle'}]"
+ "[{'name': 'Secret'}, {'name': 'Deathrattle'}]"
+ "[{'name': 'Battlecry'}, {'name': 'Aura'}]"
+ "[{'name': 'Deathrattle'}, {'name': 'Taunt'}]"
+ "[{'name': 'Deathrattle'}, {'name': 'Windfury'}]"
+ "[{'name': 'Aura'}, {'name': 'InvisibleDeathrattle'}]"
+ "[{'name': 'Deathrattle'}, {'name': 'Aura'}]"
+ "[{'name': 'Freeze'}, {'name': 'Aura'}]" "[{'name': 'Lifesteal'}]"
+ "[{'name': 'Divine Shield'}, {'name': 'Taunt'}, {'name': 'Battlecry'}]"
+ "[{'name': 'Charge'}, {'name': 'Taunt'}]"
+ "[{'name': 'Deathrattle'}, {'name': 'Taunt'}, {'name': 'Battlecry'}]"
+ "[{'name': 'Spell Damage'}, {'name': 'Stealth'}]"
+ "[{'name': 'Deathrattle'}, {'name': 'Battlecry'}]"
+ "[{'name': 'Windfury'}, {'name': 'Taunt'}, {'name': 'Divine Shield'}, {'name': 'Battlecry'}]"
+ "[{'name': 'Aura'}, {'name': 'AdjacentBuff'}]"
+ "[{'name': 'Battlecry'}, {'name': 'Taunt'}]"
+ "[{'name': 'ImmuneToSpellpower'}, {'name': 'Casts When Drawn'}]"
+ "[{'name': 'Battlecry'}, {'name': 'Deathrattle'}]"
+ "[{'name': 'Overload'}, {'name': 'Battlecry'}]"
+ "[{'name': 'Taunt'}, {'name': 'Aura'}, {'name': 'InvisibleDeathrattle'}]"
+ "[{'name': 'Inspire'}]" "[{'name': 'Taunt'}, {'name': 'Secret'}]"
+ "[{'name': 'Charge'}, {'name': 'Stealth'}]"
+ "[{'name': 'Windfury'}, {'name': 'Inspire'}]"
+ "[{'name': 'Casts When Drawn'}]"
+ "[{'name': 'Divine Shield'}, {'name': 'Stealth'}]"
+ "[{'name': 'Inspire'}, {'name': 'Spell Damage'}]"
+ "[{'name': 'Divine Shield'}, {'name': 'Taunt'}]" "[{'name': 'Discover'}]"
+ "[{'name': 'Echo'}]" "[{'name': 'Poisonous'}, {'name': 'Stealth'}]"
+ "[{'name': 'Honorable Kill'}]" "[{'name': 'Spellburst'}]"
+ "[{'name': 'Nature Spell Damage'}]" "[{'name': 'Magnetic'}]"
+ "[{'name': 'OneTurnEffect'}, {'name': 'Spell Damage'}]"
+ "[{'name': 'Reborn'}]" "[{'name': 'Quest'}]"
+ "[{'name': 'Tradeable'}, {'name': 'Discover'}]"
+ "[{'name': 'Echo'}, {'name': 'Divine Shield'}]"
+ "[{'name': 'Echo'}, {'name': 'ImmuneToSpellpower'}]"
+ "[{'name': 'Taunt'}, {'name': 'Charge'}, {'name': 'Battlecry'}]"
+ "[{'name': 'Taunt'}, {'name': 'Poisonous'}]"
+ "[{'name': 'Taunt'}, {'name': 'Quest'}]"
+ "[{'name': 'Casts When Drawn'}, {'name': 'ImmuneToSpellpower'}]"
+ "[{'name': 'Quest'}, {'name': 'ImmuneToSpellpower'}]"
+ "[{'name': 'ImmuneToSpellpower'}, {'name': 'Quest'}]"
+ "[{'name': 'Rush'}, {'name': 'Poisonous'}, {'name': 'Taunt'}, {'name': 'Windfury'}, {'name': 'Divine Shield'}, {'name': 'Stealth'}]"
+ "[{'name': 'Charge'}, {'name': 'OneTurnEffect'}]"
+ "[{'name': 'Combo'}, {'name': 'Poisonous'}, {'name': 'Stealth'}]"
+ "[{'name': 'Combo'}, {'name': 'Poisonous'}]" "[{'name': 'Outcast'}]"
+ "[{'name': 'Magnetic'}, {'name': 'Deathrattle'}, {'name': 'Taunt'}]"
+ "[{'name': 'InvisibleDeathrattle'}, {'name': 'Aura'}]"
+ "[{'name': 'Battlecry'}, {'name': 'Taunt'}, {'name': 'Divine Shield'}]"
+ "[{'name': 'Recruit'}]" "[{'name': 'Battlecry'}, {'name': 'Rush'}]"
+ "[{'name': 'Divine Shield'}, {'name': 'Rush'}]"
+ "[{'name': 'Battlecry'}, {'name': 'Outcast'}]"
+ "[{'name': 'Spellburst'}, {'name': 'Corrupt'}]"
+ "[{'name': 'Taunt'}, {'name': 'Charge'}]"
+ "[{'name': 'Recruit'}, {'name': 'Deathrattle'}]" "[{'name': 'Corrupt'}]"
+ "[{'name': 'Lifesteal'}, {'name': 'Rush'}, {'name': 'InvisibleDeathrattle'}]"
+ "[{'name': 'Twinspell'}]" "[{'name': 'Poisonous'}, {'name': 'Taunt'}]"
+ "[{'name': 'Discover'}, {'name': 'Battlecry'}]"
+ "[{'name': 'Deathrattle'}, {'name': 'Rush'}]"
+ "[{'name': 'Lifesteal'}, {'name': 'Battlecry'}]"
+ "[{'name': 'Taunt'}, {'name': 'InvisibleDeathrattle'}]"
+ "[{'name': 'Discover'}, {'name': 'Deathrattle'}, {'name': 'Battlecry'}]"
+ "[{'name': 'Discover'}, {'name': 'Deathrattle'}]"
+ "[{'name': 'Divine Shield'}, {'name': 'Deathrattle'}]"
+ "[{'name': 'Spell Damage'}, {'name': 'OneTurnEffect'}]"
+ "[{'name': 'Charge'}, {'name': 'Aura'}]"
+ "[{'name': 'ImmuneToSpellpower'}, {'name': 'Secret'}]"
+ "[{'name': 'Taunt'}, {'name': 'Aura'}]"
+ "[{'name': 'Taunt'}, {'name': 'Secret'}, {'name': 'Battlecry'}]"
+ "[{'name': 'Jade Golem'}]" "[{'name': 'Overload'}, {'name': 'Discover'}]"
+ "[{'name': 'Discover'}, {'name': 'Taunt'}]"
+ "[{'name': 'Overload'}, {'name': 'Jade Golem'}, {'name': 'Battlecry'}]"
+ "[{'name': 'Jade Golem'}, {'name': 'Combo'}]"
+ "[{'name': 'Jade Golem'}, {'name': 'Deathrattle'}, {'name': 'Stealth'}]"
+ "[{'name': 'Divine Shield'}, {'name': 'Taunt'}, {'name': 'Lifesteal'}]"
+ "[{'name': 'Jade Golem'}, {'name': 'Battlecry'}]"
+ "[{'name': 'Freeze'}, {'name': 'Battlecry'}]"
+ "[{'name': 'Battlecry'}, {'name': 'Silence'}]"
+ "[{'name': 'Jade Golem'}, {'name': 'Battlecry'}, {'name': 'Deathrattle'}]"
+ "[{'name': 'Deathrattle'}, {'name': 'Battlecry'}, {'name': 'Silence'}]"
+ "[{'name': 'Jade Golem'}, {'name': 'Battlecry'}, {'name': 'Taunt'}]"
+ "[{'name': 'Divine Shield'}, {'name': 'Battlecry'}, {'name': 'Taunt'}]"
+ "[{'name': 'Jade Golem'}, {'name': 'Taunt'}, {'name': 'Battlecry'}]"
+ "[{'name': 'Adapt'}]" "[{'name': 'Quest'}, {'name': 'Deathrattle'}]"
+ "[{'name': 'Quest'}, {'name': 'Taunt'}]"
+ "[{'name': 'Battlecry'}, {'name': 'Adapt'}]"
+ "[{'name': 'Discover'}, {'name': 'Battlecry'}, {'name': 'Secret'}]"
+ "[{'name': 'Battlecry'}, {'name': 'Discover'}]"
+ "[{'name': 'Battlecry'}, {'name': 'Taunt'}, {'name': 'Discover'}]"
+ "[{'name': 'Stealth'}, {'name': 'Taunt'}]"
+ "[{'name': 'Battlecry'}, {'name': 'Divine Shield'}, {'name': 'Taunt'}]"
+ "[{'name': 'Overload'}, {'name': 'ImmuneToSpellpower'}]"
+ "[{'name': 'Battlecry'}, {'name': 'Adapt'}, {'name': 'Taunt'}]"
+ "[{'name': 'Lifesteal'}, {'name': 'OneTurnEffect'}]"
+ "[{'name': 'Divine Shield'}, {'name': 'Spell Damage'}]"
+ "[{'name': 'Secret'}, {'name': 'Poisonous'}]"
+ "[{'name': 'Taunt'}, {'name': 'Overload'}]"
+ "[{'name': 'Battlecry'}, {'name': 'Divine Shield'}]"
+ "[{'name': 'Poisonous'}, {'name': 'Combo'}]"
+ "[{'name': 'Charge'}, {'name': 'Lifesteal'}]"
+ "[{'name': 'Battlecry'}, {'name': 'Taunt'}, {'name': 'Divine Shield'}, {'name': 'Lifesteal'}, {'name': 'Windfury'}]"
+ "[{'name': 'Battlecry'}, {'name': 'Lifesteal'}]"
+ "[{'name': 'Battlecry'}, {'name': 'Lifesteal'}, {'name': 'Taunt'}]"
+ "[{'name': 'Aura'}, {'name': 'Deathrattle'}]"
+ "[{'name': 'Taunt'}, {'name': 'Freeze'}]"
+ "[{'name': 'Battlecry'}, {'name': 'AIMustPlay'}]"
+ "[{'name': 'Taunt'}, {'name': 'Lifesteal'}, {'name': 'Deathrattle'}]"
+ "[{'name': 'Battlecry'}, {'name': 'Stealth'}]"
+ "[{'name': 'AIMustPlay'}, {'name': 'Recruit'}]"
+ "[{'name': 'Secret'}, {'name': 'ImmuneToSpellpower'}]"
+ "[{'name': 'Divine Shield'}, {'name': 'Poisonous'}]"
+ "[{'name': 'Recruit'}, {'name': 'Battlecry'}]"
+ "[{'name': 'Deathrattle'}, {'name': 'Recruit'}]"
+ "[{'name': 'Taunt'}, {'name': 'Deathrattle'}, {'name': 'Recruit'}]"
+ "[{'name': 'Battlecry'}, {'name': 'Recruit'}, {'name': 'Deathrattle'}]"
+ "[{'name': 'Battlecry'}, {'name': 'Recruit'}]"
+ "[{'name': 'AffectedBySpellPower'}, {'name': 'Overload'}]"
+ "[{'name': 'AffectedBySpellPower'}, {'name': 'Discover'}]"
+ "[{'name': 'Deathrattle'}, {'name': 'Stealth'}]"
+ "[{'name': 'Echo'}, {'name': 'Rush'}]"
+ "[{'name': 'Echo'}, {'name': 'Battlecry'}]"
+ "[{'name': 'Lifesteal'}, {'name': 'Rush'}]"
+ "[{'name': 'Rush'}, {'name': 'Lifesteal'}]"
+ "[{'name': 'Rush'}, {'name': 'Deathrattle'}]"
+ "[{'name': 'Rush'}, {'name': 'Taunt'}]"
+ "[{'name': 'ImmuneToSpellpower'}, {'name': 'Echo'}]"
+ "[{'name': 'Battlecry'}, {'name': 'Echo'}]"
+ "[{'name': 'Battlecry'}, {'name': 'Poisonous'}]"
+ "[{'name': 'Taunt'}, {'name': 'Lifesteal'}]"
+ "[{'name': 'Taunt'}, {'name': 'Echo'}]"
+ "[{'name': 'Rush'}, {'name': 'Windfury'}]"
+ "[{'name': 'Battlecry'}, {'name': 'Discover'}, {'name': 'Secret'}]"
+ "[{'name': 'Battlecry'}, {'name': 'Deathrattle'}, {'name': 'Secret'}]"
+ "[{'name': 'Aura'}, {'name': 'Rush'}]"
+ "[{'name': 'Rush'}, {'name': 'Battlecry'}]"
+ "[{'name': 'Battlecry'}, {'name': 'Secret'}]"
+ "[{'name': 'Rush'}, {'name': 'Divine Shield'}]"
+ "[{'name': 'Rush'}, {'name': 'Poisonous'}]"
+ "[{'name': 'Rush'}, {'name': 'Deathrattle'}, {'name': 'Combo'}]"
+ "[{'name': 'Echo'}, {'name': 'Aura'}]"
+ "[{'name': 'Battlecry'}, {'name': 'Deathrattle'}, {'name': 'Lifesteal'}, {'name': 'Rush'}]"
+ "[{'name': 'Secret'}, {'name': 'Divine Shield'}]"
+ "[{'name': 'Poisonous'}, {'name': 'Rush'}]"
+ "[{'name': 'Secret'}, {'name': 'Discover'}]"
+ "[{'name': 'Rush'}, {'name': 'Magnetic'}]"
+ "[{'name': 'Overload'}, {'name': 'Rush'}]"
+ "[{'name': 'Lifesteal'}, {'name': 'Divine Shield'}]"
+ "[{'name': 'Magnetic'}, {'name': 'Poisonous'}]"
+ "[{'name': 'Taunt'}, {'name': 'Magnetic'}]"
+ "[{'name': 'Magnetic'}, {'name': 'Echo'}, {'name': 'Deathrattle'}]"
+ "[{'name': 'Magnetic'}, {'name': 'Deathrattle'}]"
+ "[{'name': 'Magnetic'}, {'name': 'Divine Shield'}, {'name': 'Taunt'}]"
+ "[{'name': 'Deathrattle'}, {'name': 'Rush'}, {'name': 'Poisonous'}]"
+ "[{'name': 'Deathrattle'}, {'name': 'Battlecry'}, {'name': 'Discover'}]"
+ "[{'name': 'Lifesteal'}, {'name': 'Taunt'}]"
+ "[{'name': 'Magnetic'}, {'name': 'Divine Shield'}, {'name': 'Taunt'}, {'name': 'Lifesteal'}, {'name': 'Rush'}]"
+ "[{'name': 'Overkill'}]"
+ "[{'name': 'InvisibleDeathrattle'}, {'name': 'Overkill'}]"
+ "[{'name': 'Deathrattle'}, {'name': 'InvisibleDeathrattle'}, {'name': 'Stealth'}]"
+ "[{'name': 'InvisibleDeathrattle'}, {'name': 'Deathrattle'}]"
+ "[{'name': 'InvisibleDeathrattle'}, {'name': 'Rush'}, {'name': 'Poisonous'}, {'name': 'Taunt'}]"
+ "[{'name': 'InvisibleDeathrattle'}, {'name': 'Spell Damage'}]"
+ "[{'name': 'InvisibleDeathrattle'}, {'name': 'Overload'}]"
+ "[{'name': 'InvisibleDeathrattle'}, {'name': 'Divine Shield'}]"
+ "[{'name': 'InvisibleDeathrattle'}, {'name': 'Battlecry'}]"
+ "[{'name': 'Battlecry'}, {'name': 'Overload'}]"
+ "[{'name': 'Taunt'}, {'name': 'AdjacentBuff'}]"
+ "[{'name': 'Rush'}, {'name': 'Overkill'}, {'name': 'Discover'}]"
+ "[{'name': 'Stealth'}, {'name': 'Aura'}, {'name': 'Rush'}]"
+ "[{'name': 'Aura'}, {'name': 'Overload'}]"
+ "[{'name': 'Rush'}, {'name': 'Overkill'}]"
+ "[{'name': 'Battlecry'}, {'name': 'Taunt'}, {'name': 'Silence'}]"
+ "[{'name': 'Stealth'}, {'name': 'Aura'}]"
+ "[{'name': 'Battlecry'}, {'name': 'Discover'}, {'name': 'Overload'}]"
+ "[{'name': 'Poisonous'}, {'name': 'Deathrattle'}]"
+ "[{'name': 'Taunt'}, {'name': 'Poisonous'}, {'name': 'Stealth'}, {'name': 'Spell Damage'}, {'name': 'Rush'}]"
+ "[{'name': 'Spell Damage'}, {'name': 'Freeze'}]"
+ "[{'name': 'Overkill'}, {'name': 'Stealth'}]"
+ "[{'name': 'Lifesteal'}, {'name': 'Taunt'}, {'name': 'InvisibleDeathrattle'}]"
+ "[{'name': 'Aura'}, {'name': 'Stealth'}]"
+ "[{'name': 'Divine Shield'}, {'name': 'Overkill'}]"
+ "[{'name': 'Overkill'}, {'name': 'Rush'}]" "[{'name': 'AdjacentBuff'}]"
+ "[{'name': 'Taunt'}, {'name': 'Divine Shield'}, {'name': 'Discover'}]"
+ "[{'name': 'Divine Shield'}, {'name': 'Rush'}, {'name': 'Lifesteal'}]"
+ "[{'name': 'AIMustPlay'}, {'name': 'Battlecry'}]"
+ "[{'name': 'Taunt'}, {'name': 'Divine Shield'}, {'name': 'Rush'}, {'name': 'Windfury'}]"
+ "[{'name': 'Discover'}, {'name': 'Quest'}]"
+ "[{'name': 'Twinspell'}, {'name': 'Secret'}]"
+ "[{'name': 'Twinspell'}, {'name': 'Freeze'}]"
+ "[{'name': 'Casts When Drawn'}, {'name': 'Rush'}]"
+ "[{'name': 'Twinspell'}, {'name': 'Lifesteal'}]"
+ "[{'name': 'Aura'}, {'name': 'Secret'}]"
+ "[{'name': 'Deathrattle'}, {'name': 'Discover'}]"
+ "[{'name': 'Combo'}, {'name': 'Battlecry'}]"
+ "[{'name': 'Aura'}, {'name': 'Spell Damage'}]"
+ "[{'name': 'Charge'}, {'name': 'Windfury'}, {'name': 'Divine Shield'}, {'name': 'Lifesteal'}, {'name': 'Poisonous'}, {'name': 'Taunt'}, {'name': 'Stealth'}]"
+ "[{'name': 'Twinspell'}, {'name': 'Rush'}]"
+ "[{'name': 'Taunt'}, {'name': 'Spell Damage'}]"
+ "[{'name': 'Rush'}, {'name': 'Lifesteal'}, {'name': 'Windfury'}]"
+ "[{'name': 'Aura'}, {'name': 'Windfury'}]"
+ "[{'name': 'Battlecry'}, {'name': 'Aura'}, {'name': 'Discover'}]"
+ "[{'name': 'Discover'}, {'name': 'Echo'}]"
+ "[{'name': 'Deathrattle'}, {'name': 'Reborn'}]"
+ "[{'name': 'Poisonous'}, {'name': 'Rush'}, {'name': 'Reborn'}]"
+ "[{'name': 'Discover'}, {'name': 'Battlecry'}, {'name': 'Overload'}]"
+ "[{'name': 'Quest'}, {'name': 'Battlecry'}]"
+ "[{'name': 'Quest'}, {'name': 'Reborn'}]"
+ "[{'name': 'Battlecry'}, {'name': 'Reborn'}]"
+ "[{'name': 'Taunt'}, {'name': 'Divine Shield'}, {'name': 'Windfury'}, {'name': 'Rush'}]"
+ "[{'name': 'Battlecry'}, {'name': 'Quest'}]"
+ "[{'name': 'Rush'}, {'name': 'Reborn'}, {'name': 'Deathrattle'}]"
+ "[{'name': 'Reborn'}, {'name': 'Aura'}]"
+ "[{'name': 'Charge'}, {'name': 'Windfury'}]"
+ "[{'name': 'Rush'}, {'name': 'Reborn'}]"
+ "[{'name': 'Lifesteal'}, {'name': 'Overload'}]"
+ "[{'name': 'Lifesteal'}, {'name': 'Reborn'}]"
+ "[{'name': 'Twinspell'}, {'name': 'Reborn'}]"
+ "[{'name': 'Reborn'}, {'name': 'Taunt'}]"
+ "[{'name': 'Reborn'}, {'name': 'Battlecry'}]"
+ "[{'name': 'Twinspell'}, {'name': 'Windfury'}]"
+ "[{'name': 'Overload'}, {'name': 'Aura'}]"
+ "[{'name': 'Aura'}, {'name': 'Taunt'}]"
+ "[{'name': 'Rush'}, {'name': 'Reborn'}, {'name': 'Poisonous'}]"
+ "[{'name': 'Reborn'}, {'name': 'Stealth'}]"
+ "[{'name': 'Taunt'}, {'name': 'Reborn'}, {'name': 'Deathrattle'}]"
+ "[{'name': 'Battlecry'}, {'name': 'Rush'}, {'name': 'Taunt'}, {'name': 'Divine Shield'}, {'name': 'Windfury'}]"
+ "[{'name': 'Reborn'}, {'name': 'Divine Shield'}]"
+ "[{'name': 'Sidequest'}, {'name': 'Rush'}]"
+ "[{'name': 'Battlecry'}, {'name': 'Invoke'}]" "[{'name': 'Sidequest'}]"
+ "[{'name': 'Invoke'}, {'name': 'Freeze'}]" "[{'name': 'Invoke'}]"
+ "[{'name': 'Invoke'}, {'name': 'Battlecry'}]"
+ "[{'name': 'Sidequest'}, {'name': 'Taunt'}]"
+ "[{'name': 'Battlecry'}, {'name': 'Lifesteal'}, {'name': 'Discover'}]"
+ "[{'name': 'Aura'}, {'name': 'Freeze'}]"
+ "[{'name': 'Battlecry'}, {'name': 'Poisonous'}, {'name': 'Discover'}]"
+ "[{'name': 'Battlecry'}, {'name': 'Rush'}, {'name': 'Invoke'}]"
+ "[{'name': 'Battlecry'}, {'name': 'Spell Damage'}, {'name': 'Discover'}]"
+ "[{'name': 'Rush'}, {'name': 'Battlecry'}, {'name': 'Invoke'}]"
+ "[{'name': 'Combo'}, {'name': 'Deathrattle'}]"
+ "[{'name': 'Spell Damage'}, {'name': 'Overload'}]"
+ "[{'name': 'Battlecry'}, {'name': 'Deathrattle'}, {'name': 'Discover'}]"
+ "[{'name': 'Invoke'}, {'name': 'Taunt'}]"
+ "[{'name': 'Taunt'}, {'name': 'Battlecry'}, {'name': 'Invoke'}]"
+ "[{'name': 'AIMustPlay'}, {'name': 'Rush'}]"
+ "[{'name': 'AIMustPlay'}, {'name': 'Secret'}]"
+ "[{'name': 'Deathrattle'}, {'name': 'AIMustPlay'}]"
+ "[{'name': 'Twinspell'}, {'name': 'Taunt'}]"
+ "[{'name': 'Battlecry'}, {'name': 'Taunt'}, {'name': 'Quest'}, {'name': 'Rush'}]"
+ "[{'name': 'Deathrattle'}, {'name': 'Lifesteal'}]"
+ "[{'name': 'Deathrattle'}, {'name': 'Divine Shield'}]"
+ "[{'name': 'Discover'}, {'name': 'Secret'}]"
+ "[{'name': 'Stealth'}, {'name': 'Deathrattle'}]"
+ "[{'name': 'Spell Damage'}, {'name': 'Deathrattle'}]"
+ "[{'name': 'Spell Damage'}, {'name': 'Aura'}]"
+ "[{'name': 'Charge'}, {'name': 'Aura'}, {'name': 'Taunt'}]"
+ "[{'name': 'Rush'}, {'name': 'Battlecry'}, {'name': 'Deathrattle'}]"
+ "[{'name': 'Aura'}, {'name': 'Outcast'}, {'name': 'Rush'}]"
+ "[{'name': 'Aura'}, {'name': 'Outcast'}, {'name': 'Taunt'}, {'name': 'AdjacentBuff'}]"
+ "[{'name': 'Battlecry'}, {'name': 'Outcast'}, {'name': 'Stealth'}, {'name': 'Poisonous'}]"
+ "[{'name': 'Outcast'}, {'name': 'Lifesteal'}, {'name': 'Aura'}]"
+ "[{'name': 'Taunt'}, {'name': 'Rush'}, {'name': 'Battlecry'}]"
+ "[{'name': 'Outcast'}, {'name': 'Windfury'}, {'name': 'Rush'}]"
+ "[{'name': 'Outcast'}, {'name': 'Rush'}, {'name': 'Windfury'}]"
+ "[{'name': 'Rush'}, {'name': 'Deathrattle'}, {'name': 'Taunt'}]"
+ "[{'name': 'Taunt'}, {'name': 'Deathrattle'}, {'name': 'Lifesteal'}]"
+ "[{'name': 'Rush'}, {'name': 'Discover'}]"
+ "[{'name': 'Combo'}, {'name': 'Freeze'}]"
+ "[{'name': 'Battlecry'}, {'name': 'Spellburst'}]"
+ "[{'name': 'Discover'}, {'name': 'Spell Damage'}]"
+ "[{'name': 'Combo'}, {'name': 'Discover'}]"
+ "[{'name': 'Deathrattle'}, {'name': 'InvisibleDeathrattle'}]"
+ "[{'name': 'Battlecry'}, {'name': 'Honorable Kill'}]"
+ "[{'name': 'Tradeable'}, {'name': 'Battlecry'}, {'name': 'Divine Shield'}]"
+ "[{'name': 'Rush'}, {'name': 'Echo'}]"
+ "[{'name': 'Spellburst'}, {'name': 'Taunt'}]"
+ "[{'name': 'Divine Shield'}, {'name': 'Spellburst'}]"
+ "[{'name': 'Rush'}, {'name': 'Silence'}]"
+ "[{'name': 'Windfury'}, {'name': 'Rush'}, {'name': 'Spellburst'}]"
+ "[{'name': 'Deathrattle'}, {'name': 'Charge'}]"
+ "[{'name': 'Discover'}, {'name': 'Secret'}, {'name': 'Battlecry'}]"
+ "[{'name': 'Taunt'}, {'name': 'Spellburst'}]"
+ "[{'name': 'Spellburst'}, {'name': 'Stealth'}, {'name': 'Combo'}]"
+ "[{'name': 'Deathrattle'}, {'name': 'Aura'}, {'name': 'Taunt'}]"
+ "[{'name': 'Aura'}, {'name': 'Battlecry'}]"
+ "[{'name': 'Spell Damage'}, {'name': 'Battlecry'}, {'name': 'Discover'}]"
+ "[{'name': 'Overload'}, {'name': 'Deathrattle'}]"
+ "[{'name': 'Rush'}, {'name': 'Overload'}]" "[{'name': 'Blood Gem'}]"
+ "[{'name': 'Avenge (X)'}]"
+ "[{'name': 'Divine Shield'}, {'name': 'Windfury'}, {'name': 'Taunt'}]"
+ "[{'name': 'Divine Shield'}, {'name': 'Secret'}]"
+ "[{'name': 'Divine Shield'}, {'name': 'Windfury'}]"
+ "[{'name': 'Reborn'}, {'name': 'Divine Shield'}, {'name': 'Windfury'}]"
+ "[{'name': 'Poisonous'}, {'name': 'Secret'}]"
+ "[{'name': 'Taunt'}, {'name': 'Reborn'}]"
+ "[{'name': 'Battlecry'}, {'name': 'Blood Gem'}]"
+ "[{'name': 'Poisonous'}, {'name': 'Battlecry'}]"
+ "[{'name': 'Deathrattle'}, {'name': 'Battlecry'}, {'name': 'Taunt'}]"
+ "[{'name': 'Blood Gem'}, {'name': 'Divine Shield'}]"
+ "[{'name': 'Divine Shield'}, {'name': 'Blood Gem'}]"
+ "[{'name': 'Frenzy'}, {'name': 'Blood Gem'}]"
+ "[{'name': 'Deathrattle'}, {'name': 'Secret'}]"
+ "[{'name': 'Divine Shield'}, {'name': 'Reborn'}]"
+ "[{'name': 'Windfury'}, {'name': 'Divine Shield'}]"
+ "[{'name': 'Taunt'}, {'name': 'Blood Gem'}]"
+ "[{'name': 'Adapt'}, {'name': 'Battlecry'}]"
+ "[{'name': 'Deathrattle'}, {'name': 'Avenge (X)'}]"
+ "[{'name': 'Deathrattle'}, {'name': 'Windfury'}, {'name': 'Divine Shield'}, {'name': 'Taunt'}]"
+ "[{'name': 'Deathrattle'}, {'name': 'Divine Shield'}, {'name': 'Taunt'}, {'name': 'Windfury'}]"
+ "[{'name': 'Avenge (X)'}, {'name': 'Battlecry'}]"
+ "[{'name': 'Aura'}, {'name': 'Blood Gem'}]" "[{'name': 'Frenzy'}]"
+ "[{'name': 'Windfury'}, {'name': 'Blood Gem'}]"
+ "[{'name': 'Blood Gem'}, {'name': 'Windfury'}]"
+ "[{'name': 'Windfury'}, {'name': 'Divine Shield'}, {'name': 'Frenzy'}]"
+ "[{'name': 'Divine Shield'}, {'name': 'Frenzy'}, {'name': 'Windfury'}]"
+ "[{'name': 'Poisonous'}, {'name': 'Avenge (X)'}]"
+ "[{'name': 'Battlecry'}, {'name': 'Deathrattle'}, {'name': 'Blood Gem'}]"
+ "[{'name': 'Overkill'}, {'name': 'Windfury'}]"
+ "[{'name': 'Divine Shield'}, {'name': 'Reborn'}, {'name': 'Taunt'}]"
+ "[{'name': 'Windfury'}, {'name': 'Aura'}]"
+ "[{'name': 'Outcast'}, {'name': 'Silence'}]"
+ "[{'name': 'Lifesteal'}, {'name': 'Outcast'}]"
+ "[{'name': 'Rush'}, {'name': 'Outcast'}]"
+ "[{'name': 'OneTurnEffect'}, {'name': 'Lifesteal'}]"
+ "[{'name': 'Aura'}, {'name': 'OneTurnEffect'}]"
+ "[{'name': 'Deathrattle'}, {'name': 'Spellburst'}, {'name': 'Rush'}]"
+ "[{'name': 'Deathrattle'}, {'name': 'Spellburst'}]"
+ "[{'name': 'Discover'}, {'name': 'Outcast'}]"
+ "[{'name': 'Deathrattle'}, {'name': 'Freeze'}]"
+ "[{'name': 'Deathrattle'}, {'name': 'Inspire'}]"
+ "[{'name': 'Secret'}, {'name': 'Battlecry'}, {'name': 'Discover'}]"
+ "[{'name': 'Corrupt'}, {'name': 'Rush'}]"
+ "[{'name': 'Battlecry'}, {'name': 'Deathrattle'}, {'name': 'Taunt'}]"
+ "[{'name': 'Discover'}, {'name': 'Combo'}]"
+ "[{'name': 'Taunt'}, {'name': 'Deathrattle'}, {'name': 'Poisonous'}]"
+ "[{'name': 'Rush'}, {'name': 'Battlecry'}, {'name': 'Windfury'}]"
+ "[{'name': 'Corrupt'}, {'name': 'Poisonous'}]"
+ "[{'name': 'Secret'}, {'name': 'Stealth'}]"
+ "[{'name': 'Deathrattle'}, {'name': 'Silence'}]"
+ "[{'name': 'Corrupt'}, {'name': 'Stealth'}]"
+ "[{'name': 'Deathrattle'}, {'name': 'Taunt'}, {'name': 'Windfury'}]"
+ "[{'name': 'Corrupt'}, {'name': 'Divine Shield'}, {'name': 'Rush'}]"
+ "[{'name': 'Corrupt'}, {'name': 'Aura'}]"
+ "[{'name': 'Taunt'}, {'name': 'Corrupt'}]"
+ "[{'name': 'Spellburst'}, {'name': 'Divine Shield'}]"
+ "[{'name': 'Corrupt'}, {'name': 'Lifesteal'}, {'name': 'Taunt'}]"
+ "[{'name': 'Aura'}, {'name': 'Outcast'}]"
+ "[{'name': 'Corrupt'}, {'name': 'Battlecry'}]"
+ "[{'name': 'Poisonous'}, {'name': 'Charge'}]"
+ "[{'name': 'Rush'}, {'name': 'Stealth'}]"
+ "[{'name': 'Inspire'}, {'name': 'Deathrattle'}]"
+ "[{'name': 'Deathrattle'}, {'name': 'Rush'}, {'name': 'Taunt'}]"
+ "[{'name': 'Corrupt'}, {'name': 'Secret'}, {'name': 'Discover'}]"
+ "[{'name': 'Discover'}, {'name': 'Secret'}, {'name': 'Corrupt'}]"
+ "[{'name': 'Rush'}, {'name': 'Combo'}]"
+ "[{'name': 'Corrupt'}, {'name': 'Divine Shield'}, {'name': 'Taunt'}]"
+ "[{'name': 'Windfury'}, {'name': 'Deathrattle'}]"
+ "[{'name': 'Battlecry'}, {'name': 'Corrupt'}]"
+ "[{'name': 'Battlecry'}, {'name': 'Spellburst'}, {'name': 'Discover'}]"
+ "[{'name': 'Discover'}, {'name': 'Spell Damage'}, {'name': 'Battlecry'}]"
+ "[{'name': 'Charge'}, {'name': 'Rush'}]"
+ "[{'name': 'Corrupt'}, {'name': 'Lifesteal'}]"
+ "[{'name': 'Corrupt'}, {'name': 'Taunt'}]"
+ "[{'name': 'Aura'}, {'name': 'Deathrattle'}, {'name': 'Windfury'}]"
+ "[{'name': 'Battlecry'}, {'name': 'Rush'}, {'name': 'Lifesteal'}, {'name': 'Divine Shield'}, {'name': 'Taunt'}]"
+ "[{'name': 'Deathrattle'}, {'name': 'Taunt'}, {'name': 'Divine Shield'}]"
+ "[{'name': 'Taunt'}, {'name': 'Corrupt'}, {'name': 'Battlecry'}]"
+ "[{'name': 'OneTurnEffect'}, {'name': 'Poisonous'}]"
+ "[{'name': 'Spell Damage'}, {'name': 'ImmuneToSpellpower'}]"
+ "[{'name': 'Casts When Drawn'}, {'name': 'Divine Shield'}]"
+ "[{'name': 'Discover'}, {'name': 'Rush'}]"
+ "[{'name': 'Secret'}, {'name': 'Taunt'}]"
+ "[{'name': 'Deathrattle'}, {'name': 'Poisonous'}]"
+ "[{'name': 'Taunt'}, {'name': 'Deathrattle'}, {'name': 'Freeze'}]"
+ "[{'name': 'Taunt'}, {'name': 'Rush'}, {'name': 'Discover'}, {'name': 'Battlecry'}]"
+ "[{'name': 'Battlecry'}, {'name': 'Rush'}, {'name': 'Windfury'}]"
+ "[{'name': 'Lifesteal'}, {'name': 'ImmuneToSpellpower'}]"
+ "[{'name': 'Freeze'}, {'name': 'AIMustPlay'}]"
+ "[{'name': 'Frenzy'}, {'name': 'Divine Shield'}]"
+ "[{'name': 'Freeze'}, {'name': 'Deathrattle'}]"
+ "[{'name': 'Poisonous'}, {'name': 'Battlecry'}, {'name': 'Discover'}]"
+ "[{'name': 'Taunt'}, {'name': 'Aura'}, {'name': 'Rush'}, {'name': 'Deathrattle'}]"
+ "[{'name': 'Taunt'}, {'name': 'Windfury'}, {'name': 'Discover'}, {'name': 'Battlecry'}]"
+ "[{'name': 'Frenzy'}, {'name': 'Rush'}]"
+ "[{'name': 'Discover'}, {'name': 'Battlecry'}, {'name': 'Deathrattle'}]"
+ "[{'name': 'Deathrattle'}, {'name': 'Poisonous'}, {'name': 'Rush'}]"
+ "[{'name': 'Outcast'}, {'name': 'Deathrattle'}]"
+ "[{'name': 'Frenzy'}, {'name': 'Battlecry'}]"
+ "[{'name': 'Taunt'}, {'name': 'Frenzy'}]"
+ "[{'name': 'Deathrattle'}, {'name': 'Frenzy'}]"
+ "[{'name': 'Discover'}, {'name': 'Battlecry'}, {'name': 'Taunt'}]"
+ "[{'name': 'Rush'}, {'name': 'Frenzy'}, {'name': 'Taunt'}]"
+ "[{'name': 'Battlecry'}, {'name': 'Frenzy'}]"
+ "[{'name': 'Deathrattle'}, {'name': 'Aura'}, {'name': 'Battlecry'}]"
+ "[{'name': 'Windfury'}, {'name': 'Battlecry'}]"
+ "[{'name': 'Lifesteal'}, {'name': 'Charge'}, {'name': 'Outcast'}]"
+ "[{'name': 'Taunt'}, {'name': 'Divine Shield'}, {'name': 'Deathrattle'}]"
+ "[{'name': 'Tradeable'}]" "[{'name': 'Questline'}]"
+ "[{'name': 'Secret'}, {'name': 'Discover'}, {'name': 'Divine Shield'}]"
+ "[{'name': 'Questline'}, {'name': 'Overload'}]"
+ "[{'name': 'Questline'}, {'name': 'Discover'}]"
+ "[{'name': 'Questline'}, {'name': 'Lifesteal'}]"
+ "[{'name': 'Tradeable'}, {'name': 'Overload'}, {'name': 'AffectedBySpellPower'}]"
+ "[{'name': 'Tradeable'}, {'name': 'Silence'}]"
+ "[{'name': 'Questline'}, {'name': 'Taunt'}, {'name': 'Overload'}]"
+ "[{'name': 'Tradeable'}, {'name': 'Lifesteal'}]"
+ "[{'name': 'Freeze'}, {'name': 'Taunt'}, {'name': 'Deathrattle'}]"
+ "[{'name': 'Tradeable'}, {'name': 'Rush'}]"
+ "[{'name': 'Lifesteal'}, {'name': 'Deathrattle'}]"
+ "[{'name': 'Tradeable'}, {'name': 'Deathrattle'}]"
+ "[{'name': 'Discover'}, {'name': 'Overload'}]"
+ "[{'name': 'Battlecry'}, {'name': 'Discover'}, {'name': 'Quest'}]"
+ "[{'name': 'Battlecry'}, {'name': 'Tradeable'}]"
+ "[{'name': 'Lifesteal'}, {'name': 'Charge'}]"
+ "[{'name': 'Outcast'}, {'name': 'Lifesteal'}]"
+ "[{'name': 'Rush'}, {'name': 'Lifesteal'}, {'name': 'Overload'}]"
+ "[{'name': 'Battlecry'}, {'name': 'Divine Shield'}, {'name': 'Rush'}]"
+ "[{'name': 'Tradeable'}, {'name': 'Spell Damage'}]"
+ "[{'name': 'Deathrattle'}, {'name': 'Tradeable'}]"
+ "[{'name': 'Battlecry'}, {'name': 'Tradeable'}, {'name': 'Silence'}]"
+ "[{'name': 'Deathrattle'}, {'name': 'Battlecry'}, {'name': 'Taunt'}, {'name': 'Outcast'}]"
+ "[{'name': 'Deathrattle'}, {'name': 'Tradeable'}, {'name': 'Poisonous'}, {'name': 'Rush'}]"
+ "[{'name': 'Spellburst'}, {'name': 'Deathrattle'}, {'name': 'Stealth'}]"
+ "[{'name': 'Tradeable'}, {'name': 'Taunt'}]"
+ "[{'name': 'Spell Damage'}, {'name': 'Deathrattle'}, {'name': 'Battlecry'}]"
+ "[{'name': 'Spell Damage'}, {'name': 'Deathrattle'}, {'name': 'Frenzy'}]"
+ "[{'name': 'Aura'}, {'name': 'Charge'}]"
+ "[{'name': 'Battlecry'}, {'name': 'Casts When Drawn'}]"
+ "[{'name': 'Battlecry'}, {'name': 'Taunt'}, {'name': 'Rush'}, {'name': 'Divine Shield'}]"
+ "[{'name': 'Taunt'}, {'name': 'OneTurnEffect'}]"
+ "[{'name': 'Jade Golem'}, {'name': 'Nature Spell Damage'}]"
+ "[{'name': 'Aura'}, {'name': 'Nature Spell Damage'}]"
+ "[{'name': 'OneTurnEffect'}, {'name': 'AffectedBySpellPower'}]"
+ "[{'name': 'Taunt'}, {'name': 'Stealth'}]"
+ "[{'name': 'Taunt'}, {'name': 'Nature Spell Damage'}]"
+ "[{'name': 'Combo'}, {'name': 'Stealth'}]"
+ "[{'name': 'Stealth'}, {'name': 'Freeze'}]"
+ "[{'name': 'Deathrattle'}, {'name': 'Frenzy'}, {'name': 'Taunt'}]"
+ "[{'name': 'AIMustPlay'}, {'name': 'Deathrattle'}, {'name': 'Aura'}]"
+ "[{'name': 'Rush'}, {'name': 'Divine Shield'}, {'name': 'Taunt'}]"
+ "[{'name': 'Battlecry'}, {'name': 'Rush'}, {'name': 'Divine Shield'}, {'name': 'Taunt'}]"
+ "[{'name': 'Aura'}, {'name': 'AIMustPlay'}]"
+ "[{'name': 'Aura'}, {'name': 'AIMustPlay'}, {'name': 'Stealth'}]"
+ "[{'name': 'Honorable Kill'}, {'name': 'Divine Shield'}]"
+ "[{'name': 'Deathrattle'}, {'name': 'Rush'}, {'name': 'Stealth'}]"
+ "[{'name': 'Stealth'}, {'name': 'Poisonous'}, {'name': 'Combo'}]"
+ "[{'name': 'Stealth'}, {'name': 'Honorable Kill'}]"
+ "[{'name': 'AIMustPlay'}, {'name': 'Taunt'}]"
+ "[{'name': 'Aura'}, {'name': 'Battlecry'}, {'name': 'AIMustPlay'}]"
+ "[{'name': 'Honorable Kill'}, {'name': 'Stealth'}]"
+ "[{'name': 'Divine Shield'}, {'name': 'Lifesteal'}]"
+ "[{'name': 'Battlecry'}, {'name': 'Secret'}, {'name': 'Stealth'}]"
+ "[{'name': 'Honorable Kill'}, {'name': 'Discover'}]"
+ "[{'name': 'Frenzy'}, {'name': 'Honorable Kill'}]"
+ "[{'name': 'Honorable Kill'}, {'name': 'Rush'}]"
+ "[{'name': 'Rush'}, {'name': 'AIMustPlay'}]"
+ "[{'name': 'Deathrattle'}, {'name': 'Honorable Kill'}]"
+ "[{'name': 'Secret'}, {'name': 'Honorable Kill'}]"
+ "[{'name': 'Rush'}, {'name': 'Aura'}, {'name': 'Honorable Kill'}]"
+ "[{'name': 'Honorable Kill'}, {'name': 'Windfury'}, {'name': 'Rush'}]"
+ "[{'name': 'Windfury'}, {'name': 'Divine Shield'}, {'name': 'Lifesteal'}, {'name': 'Poisonous'}, {'name': 'Taunt'}, {'name': 'Stealth'}, {'name': 'Rush'}]"
+ "[{'name': 'Honorable Kill'}, {'name': 'Battlecry'}]"
+ "[{'name': 'Discover'}, {'name': 'Freeze'}]"
+ "[{'name': 'Deathrattle'}, {'name': 'Divine Shield'}, {'name': 'Lifesteal'}]"
+ "[{'name': 'Rush'}, {'name': 'Honorable Kill'}]"]
+------------
+mechanics
+[{'name': 'Battlecry'}]                                                                   1063
+[{'name': 'Taunt'}]                                                                        570
+[{'name': 'Deathrattle'}]                                                                  555
+[{'name': 'Rush'}]                                                                         242
+[{'name': 'OneTurnEffect'}]                                                                236
+                                                                                          ... 
+[{'name': 'Rush'}, {'name': 'Reborn'}, {'name': 'Deathrattle'}]                              1
+[{'name': 'Taunt'}, {'name': 'Divine Shield'}, {'name': 'Windfury'}, {'name': 'Rush'}]       1
+[{'name': 'Quest'}, {'name': 'Reborn'}]                                                      1
+[{'name': 'Quest'}, {'name': 'Battlecry'}]                                                   1
+[{'name': 'Rush'}, {'name': 'Honorable Kill'}]                                               1
+Name: count, Length: 529, dtype: int64
+529
+____________________________________
+faction
+4
+['Neutral' nan 'Alliance' 'Horde']
+------------
+faction
+Neutral     3931
+Alliance     133
+Horde         77
+Name: count, dtype: int64
+3
+____________________________________
+elite
+2
+[nan True]
+------------
+elite
+True    1590
+Name: count, dtype: int64
+1
+____________________________________
+cost
+20
+[ 2. nan  0.  1.  3.  4.  5.  6.  7.  8.  9. 10. 12. 20. 11. 14. 50. 25.
+ 15. 13.]
+------------
+cost
+2.0     2189
+0.0     2069
+3.0     1845
+4.0     1755
+1.0     1660
+5.0     1369
+6.0      883
+7.0      611
+8.0      507
+10.0     292
+9.0      228
+11.0      35
+12.0       7
+20.0       5
+15.0       5
+14.0       2
+25.0       2
+50.0       1
+13.0       1
+Name: count, dtype: int64
+19
+____________________________________
+attack
+36
+[ nan   0.   1.   2.   3.   4.   5.   7.   6.   9.   8.  12.  10.  11.
+  20.  30.  13.  14.  15.  16.  17.  18.  19.  21.  22.  23.  24.  25.
+  26.  27.  28.  29.  50.  35.  40. 500.]
+------------
+attack
+2.0      1168
+3.0      1029
+4.0       797
+1.0       796
+5.0       660
+0.0       629
+6.0       367
+8.0       219
+7.0       182
+10.0      162
+12.0       93
+9.0        84
+15.0       49
+11.0       48
+25.0       30
+20.0       26
+14.0       26
+13.0       22
+18.0       18
+16.0       11
+30.0        6
+17.0        4
+35.0        4
+19.0        3
+21.0        2
+40.0        2
+50.0        2
+28.0        1
+29.0        1
+23.0        1
+27.0        1
+26.0        1
+24.0        1
+22.0        1
+500.0       1
+Name: count, dtype: int64
+35
+____________________________________
+race
+11
+[nan 'Demon' 'Beast' 'Pirate' 'Mech' 'Elemental' 'Murloc' 'Dragon' 'Totem'
+ 'All' 'Quilboar']
+------------
+race
+Beast        756
+Demon        346
+Elemental    346
+Dragon       329
+Mech         258
+Murloc       161
+Pirate       143
+Quilboar      62
+Totem         42
+All           13
+Name: count, dtype: int64
+10
+____________________________________
+img
+6412
+[nan
+ 'https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3744dfa03c79d7614eb091d4bab21da82f27038e74796c709217e00f7d9fbbf8.png'
+ 'https://d15f34w2p8l1cc.cloudfront.net/hearthstone/adbc660fda865cb8085beb331245e7fa08b420d6117d5b6fbd622d453a3d098a.png'
+ ...
+ 'https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a749b338e58076ef22bdd423fb20305b6052c53fc14edb61c2db73e3a82e574e.png'
+ 'https://d15f34w2p8l1cc.cloudfront.net/hearthstone/054f08ad70cd794d38bc879272322a924d9e33d0c594760d24355e315b741468.png'
+ 'https://d15f34w2p8l1cc.cloudfront.net/hearthstone/be97f83321ed65851a54a352a682f48d213fb044132ec02e02b6430067d3abf1.png']
+------------
+img
+https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3744dfa03c79d7614eb091d4bab21da82f27038e74796c709217e00f7d9fbbf8.png    1
+https://d15f34w2p8l1cc.cloudfront.net/hearthstone/16a8b3d3580f192dcea755a80516d68f32f37fd6be9ea0105c9de2348874dd8b.png    1
+https://d15f34w2p8l1cc.cloudfront.net/hearthstone/23ccf1bfaa3d69d36552ca0114992ec4dc3144f72c6aab14e3841ec87141805b.png    1
+https://d15f34w2p8l1cc.cloudfront.net/hearthstone/33b655bbef78e072bdae6590cfbdb32d344956e5f6f03fb235a4cfa2c229594e.png    1
+https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d7d884dbef8b8abef0cb0bcaf0ae468ae1d5ccc71e0a93a6bb6fabb8d39559b9.png    1
+                                                                                                                         ..
+https://d15f34w2p8l1cc.cloudfront.net/hearthstone/16383897af6ecb8b6c52c8a959775e4fe3b90e738bd8136d7fadcdb6e1aa7a97.png    1
+https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b280e9fae4b01284a73f148c218becca245a2ccd8b06df5b90d974355e49fd59.png    1
+https://d15f34w2p8l1cc.cloudfront.net/hearthstone/75a5fdedcb2661fb78bc383d154fc0e9f9b809914ea38039657fc282a402890d.png    1
+https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8c2343a3ef735bfcc0c9159a0c1fbda1c13534029f70028ffb824f23f2939a14.png    1
+https://d15f34w2p8l1cc.cloudfront.net/hearthstone/be97f83321ed65851a54a352a682f48d213fb044132ec02e02b6430067d3abf1.png    1
+Name: count, Length: 6411, dtype: int64
+6411
+____________________________________
+flavor
+3481
+[nan "It isn't really a circle." "They're only smiling on the outside."
+ ... '"Is the shield being shattered or doing the shattering?"\\n"Yes."'
+ 'Nothing personal, tiny human. I have many mouths to feed.'
+ 'Yet ANOTHER sword fighter that spams counters.']
+------------
+flavor
+Earnable on the Fractured in Alterac Valley Tavern Pass.                     13
+Coming Soon!                                                                  9
+Imps like being on fire.  They just do.                                       4
+For the person who just cannot decide what card to put into a deck!           4
+Edward "Lefty" Smith tried to make luggage out of a river crocolisk once.     4
+                                                                             ..
+RUN FROM SKY CANDLES! THEY BURN! RUN!                                         1
+Politer than his brother, the cursing disciple, but far more evil.            1
+Having a furnace-mouth is really handy for a blacksmith.                      1
+"After that gig in Hamlin went south, I swore off rats."                      1
+Yet ANOTHER sword fighter that spams counters.                                1
+Name: count, Length: 3480, dtype: int64
+3480
+____________________________________
+artist
+410
+[nan 'Lars Grant-West' 'Daarken' 'Slawomir Maniak' 'Clint Langley'
+ 'Graven Tung' 'Zoltan & Gabor' 'Malcolm Davis' 'Luca Zontini' 'Mike Sass'
+ 'Alex Horley Orlandelli' 'Chippy' 'Bernie Kang' 'Randy Gallegos'
+ 'Raymond Swanland' 'Kevin Chen' 'James Ryman' 'Tyler Walpole'
+ 'Ralph Horsley' 'Jaemin Kim' 'Steve Prescott' 'Glenn Rane' 'Erik Ko'
+ 'Blizzard Cinematics' 'Ittoku' 'Gonzalo Ordonez' 'Dave Rapoza'
+ 'Zoltan Boros' 'Carl Critchlow' 'Dan Brereton' 'Matt Cavotta'
+ 'Greg Hildebrandt' 'Vance Kovacs' 'Richard Wright' 'Doug Alexander'
+ 'Lucas Graciano' 'Hideaki Takamura' 'Jim Nelson' 'Wayne Reynolds'
+ 'Tom Fleming' 'Phroilan Gardner' 'Dany Orizio' 'Ben Wootten'
+ 'John Dickenson' 'Ariel Olivetti' 'Brandon Kitkouski' 'Samwise'
+ 'Matt Gaser' 'Andrew Robinson' 'MAR Studio' 'Blizzard Entertainment'
+ 'Mark Zug' 'E. M. Gist' 'Daren Bader' 'Ben Olson' 'Ron Spears'
+ 'Steve Tappin' 'Jonboy Meyers' 'Lorenzo Minaca' 'Nate Bowden'
+ 'Alex Garner' 'Wei Wang' 'Sean O’Daniels' 'Sedhayu Ardian'
+ 'Trent Kaniuga' 'Arthur Gimaldinov' 'Leo Che' 'Jason Chan'
+ 'Steven Prescott' 'Cyril Van Der Haegen' 'Efrem Palacios' 'Michal Ivan'
+ 'John Polidora' 'Simon Bisley' 'Brian Despain' 'Ludo Lullabi'
+ 'Mark Gibbons' 'Trevor Jacobs' 'Sunny Gho' 'Popo Wei' 'Dan Scott'
+ 'Christopher Moeller' 'Scott Altmann' 'Raven Mimura' 'Tim McBurnie'
+ 'Attila Adorjany' 'Chris Moeller' 'Ken Steacy' 'Paul Warzecha' 'Tom Baxa'
+ 'Linggar Bramanty' 'Alex Alexandrov' 'Howard Lyon' 'Chris Seaman'
+ 'Scott Hampton' 'Michael Komarck' 'Gabor Szikszai' 'Ron Spencer'
+ 'Cole Eastburn' 'Dave Kendall' 'Markus Erdt' 'Monica Langlois'
+ 'Matt Dixon' 'Justin Sweet' 'Matt Starbuck' 'Konstantin Turovec'
+ 'Laurel Austin' 'Dave Allsop' 'Terese Nielsen' 'Milivoj Ceran'
+ 'Andrea Uderzo' 'Luke Mancini' 'Patrik Hjelm' 'Ian Ameling'
+ 'Peter C. Lee' 'Kev Walker' 'Brom' 'Svetlin Velinov' 'Steve Hui'
+ 'Jim Pavelec' 'Jakub Kasper' 'Carl Frank' 'Ben Zhang' 'Bill Ruan'
+ 'Jerry Mascho' 'Gabe from Penny Arcade' 'Miguel Coimbra' 'Greg Staples'
+ 'Donato Giancola' 'Karl Richardson' 'Richie Marella' 'Dave Berggren'
+ 'Phill Gonzales' 'Court Jones' 'Jesper Ejsing' 'Eric Browning'
+ 'Jeremy Cranford' 'Justin Thavirat' 'Mike Nicholson' 'Jon McConnell'
+ 'Matt Smith' 'Robb Shoberg' 'Chris Rahn' 'Chris Robinson'
+ 'Nutchapol Thitinunthakorn' 'Peerasak Senalai' 'Nutthapon Petthai'
+ 'Eva Widermann' 'Warren Mahy' 'Jeff Haynie' 'Mauricio Herrera'
+ 'Seamus Gallagher' 'Gino Whitehall' 'Phil Saunders' 'Skan Srisuwan'
+ 'Danny Beck' 'Jun Kang' 'Peet Cooper' 'Guangjian Huang' 'Andrew Hou'
+ 'Mike Hayes' 'Vinod Rams' 'Anton Zemskov' 'Zero' 'Aleksi Briclot'
+ 'José Ladrönn' 'Den' 'Jomaro Kindred' 'Tooth' 'Kerem Beyit'
+ 'Massive Black' 'Todd Lockwood' 'Josh Harris' 'Michael Phillippi'
+ 'Michael Sutfin' 'Oliver Chipping' 'Ruan Jia' 'Sam Nielson' 'Stanley Lau'
+ 'Edouard Guiton & Stuido HIVE' 'Paul Mafayon' 'Eric Braddock'
+ 'Bobby Chiu' 'Jaime Jones' 'Marcelo Vignali' 'Danny Dai' 'Ware Li'
+ 'Adam Byrne' 'Evgeniy Zaqumyennyy' 'Joe Wilson' 'Mishi McCaig'
+ 'Dan Dos Santos' 'Arthur Bozonnet' 'James Zhang' 'Tyson Murphy'
+ 'Zoltan Boros ' 'Sojin Hwang' 'Jeff Easley' 'Ben Thompson'
+ 'Michael Franchina' 'Esad Ribic' 'Edouard Guiton & Tony Washington'
+ 'RK Post' 'Nutthapon Petchthai' 'Froilan Gardner' 'Alex Pascenko'
+ 'Sean McNally' 'Ryan Metcalf' 'Penny Arcade' 'Velvet Engine'
+ 'Rafael Zanchetin' 'Vladimir Kafanov' 'Akkapoj T.' 'Ivan Fomin'
+ 'Max Grecke' 'Peter Stapleton' 'A.J. Nazzaro' 'A. J. Nazzaro'
+ 'Craig Mullins' 'George Davis' 'Turovec Konstantin' 'Jason Kang'
+ 'Alex Konstad' 'Andrius Matijoshius' 'Mike Franchina' "Matthew O'Connor"
+ 'Izzy Hoover' 'Grace Liu' 'Anton Kagounkina' 'Jimmy Lo'
+ 'L. Lullabi & A. Bozonnet' 'Daria Tuzova' 'J. Meyers & T. Washington'
+ 'J. Meyers & Nutchapol ' 'Jon Neimeister' 'Kan Liu' 'Garrett Hanna'
+ 'L. Lullabi & Nutchapol ' 'Genevieve Tsai & Nutchapol '
+ 'E. Guiton & A. Bozonnet' 'L. Lullabi & S. Srisuwan'
+ 'J. Meyers & A. Bozonnet' 'Mark Abadier' 'E. Guiton & Nutchapol '
+ 'Joe Madureira & Grace Liu' "Matt O'Connor" 'G.Tsai & K. Turovec'
+ 'Evgeniy Zaqumyenny' 'L. Lullabi & C. Luechaiwattasopon'
+ 'L. Lullabi & N. Thitinunthakorn' 'L. Lullabi & A.Thawornsathitwong'
+ 'Gustav Schmidt' 'J. Ejsing & E. Amundsen' 'Yewon Park' 'Mike Azevedo'
+ 'Tyler West Studio' 'Studio Hive' 'Rudy Siswanto' 'Nick Southham'
+ 'J. Cranford & A. J. Nazzaro' 'Ozhill Studio' 'Charlene Le Scanff'
+ 'L. Lullabi & K. Turovec' 'Craig Elliott' 'Evgeniy Dlinnov' 'James Paick'
+ 'Akkapoj Thawornsathitwong' 'Chanchai Luechaiwattanasopon' 'Aaron Miller'
+ 'Nicola Saviori' 'Servando Lupini' 'J. Axer' 'Qinghao Wu' 'Luca Zonti'
+ 'Paul Kwon' 'John Avon' 'Thomas Tenery' 'Anton Kagounkin' 'Ursula Dorada'
+ 'Will Murai' 'Steve Ellis' 'L. Lullabi & A. Bozonnet ' 'Nathan Bowden'
+ 'Grace Lui' 'J. Cranford & C. Le Scanff' 'Peter Lee' 'T-Rex'
+ 'Jaslynn Tham' 'Yang Dai' 'D. Alexander Gregory'
+ 'Trent Kaniuga & James Martin' 'Ware Lee' 'Velvet Engine '
+ 'Patrick McEvoy' 'Julian Del Rey' 'Wayne Wu ' 'Alexey Aparin'
+ 'J. Cranford' 'Hidekaki Takamura' 'Sam Hogg' 'Polygon Pictures, Inc.'
+ 'Ron Lemen' 'L Chanchai' 'Rutherford Gong' 'Jiajun Tian' 'Anton Kogoukin'
+ 'Rock Niu' 'Vlad Botos' 'Wayne Wu' 'Dai Yang' 'Pior Oberson'
+ 'J. Paick & K. Turovec' 'David Kegg' 'L\xa0Chanchai' 'Cicily He'
+ 'Filip Acovic' 'Christopher Hayes' 'Lemon Sky' 'Imaginary Friends'
+ 'Alex Horley Ormandelli' 'Evgeniy Zagumyenny' 'E. Kenji & M. Azevedo'
+ 'Patrik Bjorkstrom' 'Ekaterina Shapovalova' 'Maria Trepalina'
+ 'David Devries' 'Evgeniy Zagumyennyy' 'M. Alvares & M. Azevedo'
+ 'Evgeniy Zagumennyy' 'SARIYA ' 'Chris Hayes' 'Cecile He'
+ 'Charlene LeScanff' 'Tod Harris' 'SARIYA' 'Gabe Gonzalez'
+ 'Armand Serrano' 'Kagi' 'Maria Alexeevna Trepalina' 'Lloyd Hoshide'
+ 'Melvin Chan' 'Anzka Nguyen' 'Concept Art House' 'Nat Vitchayed'
+ 'Katherine Fortune' 'Alexa Rockman' 'Bayard Wu' 'David Kang' 'Zoe Feng'
+ 'L. Lullabi & A. Zemskov' 'Cheng Hao' 'Bios Studio' 'Agatha Zhou'
+ 'Martin Sickree' 'Angelica Alieva' 'Tiffany Chiu'
+ 'K. Lashley & K. Turovec' 'J. Cheung & K. Turovec' 'E. Li & K. Turovec'
+ 'Tang Ruiqian' 'J. Cheung & A. Bozonnet' 'Jun Yan' 'Juyoung Oh'
+ 'Brandon Blackwell' 'Konstantin Porubov' 'E. Li & A. Zemskov'
+ 'Forrest Imel' 'Kagi ' 'Samche Chen' 'Zhefei Hou' 'Ishmael Hoover'
+ 'Daniil Kudriavtsev' 'Yaohua Xu' 'Yunle Tu' 'Kai Zhong'
+ 'Leonardo Santanna' 'Aaron Su' 'Samwise Didier' 'Vika Yarova' 'Virtuos'
+ 'Jessica Jung' 'Frank Cho' 'BOSi Studio' 'Derk Venneman' 'Mauro Cascioli'
+ 'Jonathan Ryder' 'Brad Vancata' 'Josh Tallman' 'Brian Huang' 'Ladronn'
+ 'Ryan Sook' 'Stefan Kopinski' 'Romain De Santi' 'Dave Greco'
+ 'Alex Horley' 'Todd Harris' 'Junru Zhuo & Zhefei Hou' 'Lijiao Cong'
+ 'Alex Stone' 'Michaela Nienaber' 'Jialuan Li' 'Jialuan Li & Junru Zhuo'
+ 'Yoahua Xu & Junru Zhuo' 'Jun Yan & Zhefei Hou' 'Sergey Tsvelykh'
+ 'Steve Nelson' 'Studio Hive ' 'Junru Zhuo' 'Clint Cearley' 'Moon Colony']
+------------
+artist
+Konstantin Turovec                  260
+Zoltan Boros                        222
+Matt Dixon                          207
+James Ryman                         207
+Alex Horley Orlandelli              184
+                                   ... 
+J. Cranford & A. J. Nazzaro           1
+L. Lullabi & A.Thawornsathitwong      1
+E. Guiton & Nutchapol                 1
+Mark Abadier                          1
+Alex Pascenko                         1
+Name: count, Length: 409, dtype: int64
+409
+____________________________________
+spellSchool
+8
+[nan 'Holy' 'Shadow' 'Nature' 'Fel' 'Fire' 'Frost' 'Arcane']
+------------
+spellSchool
+Nature    501
+Shadow    438
+Fire      367
+Holy      277
+Arcane    226
+Frost     197
+Fel       149
+Name: count, dtype: int64
+7
+____________________________________
+collectible
+2
+[nan True]
+------------
+collectible
+True    4110
+Name: count, dtype: int64
+1
+____________________________________
+imgGold
+1597
+[nan
+ 'https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c172b02a864f5a90c1588820263897e6b1982977889e384da0df72740afbc0fa.png'
+ 'https://d15f34w2p8l1cc.cloudfront.net/hearthstone/abb68da5ff2f70f84ecaa827ff05501beb5b472cb4de476175619552c2d5a987.png'
+ ...
+ 'https://d15f34w2p8l1cc.cloudfront.net/hearthstone/163d9816474ff00b0ef3a7159b53b4feaa80385d78b381970ab2e0b37695bfb8.png'
+ 'https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ae02b6777e0f3dde7a4113b80d962e37952f956e66b1e51ad8ff71357d9673cd.png'
+ 'https://d15f34w2p8l1cc.cloudfront.net/hearthstone/49608fa1a41e744132d0cd97c25f7fd6005fcde7728cd41f4b02667dc2f3f725.png']
+------------
+imgGold
+https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c172b02a864f5a90c1588820263897e6b1982977889e384da0df72740afbc0fa.png    1
+https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d58a3654a95a1928568cbe39d304857b1b03066f61d8c00bdfea90025032155d.png    1
+https://d15f34w2p8l1cc.cloudfront.net/hearthstone/55cd6e51b5f418942da07459ea682dc37aa7e113f035dded4a9d6d24941602f6.png    1
+https://d15f34w2p8l1cc.cloudfront.net/hearthstone/115e5d0a25ae2733f12c33881eef178c3eea3036603fefa921e818afba6191d6.png    1
+https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e402a015fc1097a90876857e8d5326704bcad224d911db155825a573504d8029.png    1
+                                                                                                                         ..
+https://d15f34w2p8l1cc.cloudfront.net/hearthstone/27a5bc757329d4f1dd4d47436952fbb25d5dcb494ec33c5bb7fafaf64925dd2b.png    1
+https://d15f34w2p8l1cc.cloudfront.net/hearthstone/dc8c81fa01b0580a0994590bb114658fc357ea4b3a9a878474926db522311166.png    1
+https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e9da5cc87700287a1bf524f3257e9edf789962b41488b1a4dc5ec4ef9b82d616.png    1
+https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5a1e96511f31d0cbce95292896f6d2edecd1669649fc3402081fe008a25ad158.png    1
+https://d15f34w2p8l1cc.cloudfront.net/hearthstone/49608fa1a41e744132d0cd97c25f7fd6005fcde7728cd41f4b02667dc2f3f725.png    1
+Name: count, Length: 1596, dtype: int64
+1596
+____________________________________
+durability
+10
+[nan  2.  3.  8.  5.  1.  6.  4.  0. 10.]
+------------
+durability
+2.0     139
+3.0      86
+0.0      52
+4.0      35
+1.0      17
+5.0      15
+8.0      10
+6.0       6
+10.0      1
+Name: count, dtype: int64
+9
+____________________________________
+howToGetGold
+96
+[nan 'Unlocked at Level 40.' 'Unlocked at Level 28.'
+ 'Unlocked at Level 15.' 'Awarded at BlizzCon 2013.'
+ 'This was rewarded to players who helped test the Store during the Beta.'
+ 'Unlocked at Level 23.'
+ 'Crafting unlocked in Frostwyrm Lair, in the Naxxramas adventure.'
+ 'Crafting unlocked in The Construct Quarter, in the Naxxramas adventure.'
+ 'Crafting unlocked in The Plague Quarter, in the Naxxramas adventure.'
+ 'Crafting unlocked in The Arachnid Quarter, in the Naxxramas adventure.'
+ 'Crafting unlocked in The Military Quarter, in the Naxxramas adventure.'
+ 'Crafting unlocked in Blackrock Spire, in the Blackrock Mountain adventure.'
+ 'Crafting unlocked in Blackrock Depths, in the Blackrock Mountain adventure.'
+ 'Crafting unlocked in Molten Core, in the Blackrock Mountain adventure.'
+ 'Crafting unlocked in Blackwing Lair, in the Blackrock Mountain adventure.'
+ 'Crafting unlocked in Hidden Laboratory, in the Blackrock Mountain adventure.'
+ 'Crafting unlocked in The Ruined City, in the League of Explorers adventure.'
+ 'Crafting unlocked in the Hall of Explorers, in the League of Explorers adventure.'
+ 'Crafting unlocked in Uldaman, in the League of Explorers adventure.'
+ 'Crafting unlocked in the Temple of Orsis, in the League of Explorers adventure.'
+ 'Can be crafted after starting the League of Explorers adventure.'
+ 'Crafting unlocked after opening a Whispers of the Old Gods pack.'
+ 'Crafting unlocked in the Parlor, in One Night in Karazhan.'
+ 'Crafting unlocked in the Menagerie, in One Night in Karazhan.'
+ 'Crafting unlocked in the Prologue, in One Night in Karazhan.'
+ 'Crafting unlocked in the Spire, in One Night in Karazhan.'
+ 'Crafting unlocked in the Opera, in One Night in Karazhan.'
+ 'Unlocked with the BlizzCon 2017 virtual ticket.'
+ 'Unlocked by owning all The Dalaran Heist chapters.'
+ 'Earnable through Trial by Felfire Challenges.'
+ 'Unlocked with "Frenzy Friends" Achievement.'
+ 'Unlocked with "Hog Wild" Achievement.'
+ 'Unlocked with "Top Secret Snoop" Achievement.'
+ 'Unlocked with "Maximum Security" Achievement.'
+ 'Unlocked with "Sting Operation" Achievement.'
+ 'Unlocked with "Spawn Shop" Achievement.'
+ 'Unlocked with "Equivalent Exchange" Achievement.'
+ 'Unlocked with "Grand Guardian" Achievement.'
+ 'Not available in packs, must be crafted.' 'Unlocked at Hunter Level 59.'
+ 'Unlocked after winning 50 games as Rogue.'
+ 'Unlocked after winning 100 games as Druid.'
+ 'Unlocked after 500 total wins.'
+ 'Unlocked after winning 50 games as Druid.'
+ 'Unlocked after winning 250 games as Rogue.'
+ 'Unlocked after winning 100 games as Warlock.'
+ 'Unlocked after winning 100 games as Hunter.'
+ 'Unlocked after winning 50 games as Paladin.'
+ 'Unlocked after winning 100 games as Mage.'
+ 'Unlocked after winning 50 games as Demon Hunter.'
+ 'Unlocked after winning 50 games as Warrior.'
+ 'Unlocked after winning 100 games as Priest.'
+ 'Unlocked after winning 50 games as Warlock.'
+ 'Unlocked after winning 50 games as Priest.'
+ 'Unlocked after winning 50 games as Shaman.'
+ 'Unlocked after winning 250 games as Hunter.'
+ 'Unlocked after 1000 total wins.'
+ 'Unlocked after winning 250 games as Paladin.'
+ 'Unlocked after winning 250 games as Warrior.'
+ 'Unlocked after winning 50 games as Mage.'
+ 'Unlocked after winning 100 games as Rogue.'
+ 'Unlocked after winning 50 games as Hunter.'
+ 'Unlocked after winning 100 games as Warrior.'
+ 'Unlocked after 5000 total wins.'
+ 'Unlocked after winning 100 games as Demon Hunter.'
+ 'Unlocked after winning 100 games as Paladin.'
+ 'Unlocked after winning 500 games as Demon Hunter.'
+ 'Unlocked after winning 250 games as Priest.'
+ 'Unlocked after winning 500 games as Rogue.'
+ 'Unlocked after winning 250 games as Demon Hunter.'
+ 'Unlocked after winning 100 games as Shaman.'
+ 'Unlocked after 2500 total wins.'
+ 'Unlocked after winning 500 games as Mage.'
+ 'Unlocked after winning 250 games as Shaman.'
+ 'Unlocked after winning 250 games as Warlock.'
+ 'Unlocked after winning 250 games as Druid.'
+ 'Unlocked after winning 250 games as Mage.'
+ 'Unlocked after winning 500 games as Shaman.'
+ 'Unlocked after winning 500 games as Druid.'
+ 'Unlocked after winning 500 games as Warrior.'
+ 'Unlocked after winning 500 games as Priest.'
+ 'Unlocked after winning 500 games as Paladin.'
+ 'Unlocked after winning 500 games as Hunter.'
+ 'Unlocked after winning 500 games as Warlock.'
+ 'Unlocked with "That Which Has No Life" Achievement.'
+ 'Unlocked with "They Carry My Potions" Achievement.'
+ 'Unlocked with "Toss a Coin to Your Dancer" Achievement.'
+ 'Unlocked with "Forgot This At Home" Achievement.'
+ 'Unlocked with "Inside Sources" Achievement.'
+ 'Unlockable after purchasing the United in Stormwind Tavern Pass.'
+ 'Unlocked with "Snakes on a Blade" Achievement.'
+ 'Unlocked with "Butter My Biscuits!" Achievement.'
+ 'Obtained by gaining Honor in Fractured in Alterac Valley.'
+ 'Earnable on the Fractured in Alterac Valley Reward Track.'
+ 'Unlockable after purchasing the Voyage to the Sunken City Tavern Pass.']
+------------
+howToGetGold
+Unlocked after 500 total wins.                                                       39
+Not available in packs, must be crafted.                                             16
+Unlocked after 5000 total wins.                                                      15
+Unlocked after 1000 total wins.                                                      14
+Crafting unlocked in the Hall of Explorers, in the League of Explorers adventure.    12
+                                                                                     ..
+Unlocked with "Grand Guardian" Achievement.                                           1
+Unlocked at Hunter Level 59.                                                          1
+Unlocked at Level 28.                                                                 1
+Unlocked after winning 500 games as Demon Hunter.                                     1
+Unlockable after purchasing the Voyage to the Sunken City Tavern Pass.                1
+Name: count, Length: 95, dtype: int64
+95
+____________________________________
+Category
+39
+['Basic' 'Classic' 'Hall of Fame' 'Missions' 'Naxxramas'
+ 'Goblins vs Gnomes' 'Blackrock Mountain' 'The Grand Tournament' 'Credits'
+ 'Hero Skins' 'Tavern Brawl' 'The League of Explorers'
+ 'Whispers of the Old Gods' 'One Night in Karazhan'
+ 'Mean Streets of Gadgetzan' "Journey to Un'Goro"
+ 'Knights of the Frozen Throne' 'Kobolds & Catacombs' 'The Witchwood'
+ 'The Boomsday Project' "Rastakhan's Rumble" 'Rise of Shadows'
+ 'Taverns of Time' 'Saviors of Uldum' 'Descent of Dragons'
+ "Galakrond's Awakening" 'Ashes of Outland' 'Scholomance Academy'
+ 'Battlegrounds' 'Demon Hunter Initiate' 'Madness At The Darkmoon Faire'
+ 'Forged in the Barrens' 'Legacy' 'Core' 'Vanilla' 'United in Stormwind'
+ 'Mercenaries' 'Fractured in Alterac Valley' 'Voyage to the Sunken City']
+------------
+Category
+Mercenaries                      4876
+Tavern Brawl                     1816
+Battlegrounds                    1329
+Forged in the Barrens            1073
+Rise of Shadows                   804
+Saviors of Uldum                  799
+Fractured in Alterac Valley       655
+Madness At The Darkmoon Faire     631
+United in Stormwind               595
+Kobolds & Catacombs               551
+The Witchwood                     506
+Vanilla                           504
+Rastakhan's Rumble                481
+Scholomance Academy               407
+The Boomsday Project              405
+Ashes of Outland                  405
+Classic                           388
+Knights of the Frozen Throne      301
+Hero Skins                        300
+Galakrond's Awakening             282
+Legacy                            279
+Mean Streets of Gadgetzan         260
+Core                              260
+The League of Explorers           258
+Descent of Dragons                246
+Journey to Un'Goro                229
+One Night in Karazhan             227
+Blackrock Mountain                226
+Whispers of the Old Gods          218
+The Grand Tournament              203
+Goblins vs Gnomes                 183
+Naxxramas                         165
+Credits                           117
+Missions                           63
+Taverns of Time                    49
+Hall of Fame                       48
+Demon Hunter Initiate              29
+Voyage to the Sunken City           4
+Basic                               2
+Name: count, dtype: int64
+39
+____________________________________
+armor
+7
+[nan  5.  0.  3.  1.  7. 10.]
+------------
+armor
+5.0     41
+0.0     11
+3.0      6
+1.0      2
+10.0     2
+7.0      1
+Name: count, dtype: int64
+6
+____________________________________
+howToGet
+84
+[nan 'Unlocked at Level 1.'
+ 'Unlocked when you have all the Pirates from the Legacy Set.'
+ 'Unlocked at Level 2.'
+ 'Unlocked when you have all the Murlocs from the Legacy Set.'
+ 'Unlocked at Level 8.'
+ 'Unlocked in Frostwyrm Lair, in the Naxxramas adventure.'
+ 'Unlocked in The Construct Quarter, in the Naxxramas adventure.'
+ 'Unlocked in The Plague Quarter, in the Naxxramas adventure.'
+ 'Unlocked in The Arachnid Quarter, in the Naxxramas adventure.'
+ 'Unlocked in The Military Quarter, in the Naxxramas adventure.'
+ 'Unlocked in Blackrock Spire, in the Blackrock Mountain adventure.'
+ 'Unlocked in Blackrock Depths, in the Blackrock Mountain adventure.'
+ 'Unlocked in Molten Core, in the Blackrock Mountain adventure.'
+ 'Unlocked in Blackwing Lair, in the Blackrock Mountain adventure.'
+ 'Unlocked in Hidden Laboratory, in the Blackrock Mountain adventure.'
+ 'Unlocked in The Ruined City, in the League of Explorers adventure.'
+ 'Unlocked in the Hall of Explorers, in the League of Explorers adventure.'
+ 'Unlocked in Uldaman, in the League of Explorers adventure.'
+ 'Unlocked in the Temple of Orsis, in the League of Explorers adventure.'
+ 'Unlocked by starting the League of Explorers adventure.'
+ 'Unlocked when opening a Whispers of the Old Gods pack.'
+ 'Unlocked in the Parlor, in One Night in Karazhan.'
+ 'Unlocked in the Menagerie, in One Night in Karazhan.'
+ 'Unlocked in the Prologue, in One Night in Karazhan.'
+ 'Unlocked in the Spire, in One Night in Karazhan.'
+ 'Unlocked in the Opera, in One Night in Karazhan.'
+ 'Unlocked by opening a Kobolds & Catacombs pack.'
+ 'Earnable after purchasing the Fractured in Alterac Valley Tavern Pass.'
+ 'Unlocked when opening a Forged in the Barrens pack.'
+ 'Not available in packs, must be crafted.' 'Unlocked at level 1.'
+ 'Unlocked at level 4.' 'Unlocked at level 8.' 'Unlocked at level 7.'
+ 'Unlocked at level 5.' 'Unlocked at level 3.' 'Unlocked at level 6.'
+ 'Unlocked at level 9.' 'Unlocked at level 2.' 'Unlocked at level 22.'
+ 'Unlocked at level 21.' 'Unlocked at level 49.' 'Unlocked at level 36.'
+ 'Unlocked at level 42.' 'Unlocked at level 40.' 'Unlocked at level 51.'
+ 'Unlocked at level 10.' 'Unlocked at level 54.' 'Unlocked at level 25.'
+ 'Unlocked at level 39.' 'Unlocked at level 27.' 'Unlocked at level 58.'
+ 'Unlocked at level 30.' 'Unlocked at level 32.' 'Unlocked at level 47.'
+ 'Unlocked at level 23.' 'Unlocked at level 56.' 'Unlocked at level 29.'
+ 'Unlocked at level 41.' 'Unlocked at level 31.' 'Unlocked at level 26.'
+ 'Unlocked at level 37.' 'Unlocked at level 35.' 'Unlocked at level 38.'
+ 'Unlocked at level 46.' 'Unlocked at level 43.' 'Unlocked at level 24.'
+ 'Unlocked at level 33.' 'Unlocked at level 34.' 'Unlocked at level 28.'
+ 'Unlocked at level 45.' 'Unlocked at level 57.' 'Unlocked at level 52.'
+ 'Unlocked at level 53.' 'Unlocked at level 55.' 'Unlocked at level 48.'
+ 'Unlocked at level 44.' 'Unlocked at level 50.' 'Unlocked at level 60.'
+ 'Unlocked at level 59.'
+ 'Unlocked when opening a United in Stormwind pack.'
+ '[x]<b>Hero Power</b>\\n<b>Choose One -</b> Draw a\\ncard; or Gain a\\nMana Crystal.'
+ 'Earnable on the Fractured in Alterac Valley Reward Track.']
+------------
+howToGet
+Unlocked at level 1.                                                        105
+Not available in packs, must be crafted.                                     16
+Unlocked in the Hall of Explorers, in the League of Explorers adventure.     12
+Unlocked in the Spire, in One Night in Karazhan.                             11
+Unlocked in the Menagerie, in One Night in Karazhan.                         11
+                                                                           ... 
+Unlocked at level 32.                                                         1
+Unlocked at level 47.                                                         1
+Unlocked at level 23.                                                         1
+Unlocked at level 56.                                                         1
+Unlocked at level 49.                                                         1
+Name: count, Length: 83, dtype: int64
+83
+____________________________________
+howToGetDiamond
+11
+[nan 'Obtained by owning 36 Classic Legendary cards.'
+ 'Obtained by owning 25 Scholomance Academy Legendary cards.'
+ 'Unlockable after purchasing the Forged in the Barrens Tavern Pass.'
+ 'Obtained by owning 25 Forged in the Barrens Legendary cards.'
+ 'Obtained by owning 25 United in Stormwind Legendary cards.'
+ 'Unlockable after purchasing the United in Stormwind Tavern Pass.'
+ 'Earnable on the Fractured in Alterac Valley Reward Track.'
+ 'Unlockable after purchasing the Fractured in Alterac Valley Tavern Pass.'
+ 'Obtained from the Alliance winning the Battle for Alterac Valley event.'
+ 'Obtained by owning 25 Fractured in Alterac Valley Legendary cards.']
+------------
+howToGetDiamond
+Earnable on the Fractured in Alterac Valley Reward Track.                   3
+Obtained by owning 36 Classic Legendary cards.                              2
+Obtained by owning 25 Scholomance Academy Legendary cards.                  1
+Unlockable after purchasing the Forged in the Barrens Tavern Pass.          1
+Obtained by owning 25 Forged in the Barrens Legendary cards.                1
+Obtained by owning 25 United in Stormwind Legendary cards.                  1
+Unlockable after purchasing the United in Stormwind Tavern Pass.            1
+Unlockable after purchasing the Fractured in Alterac Valley Tavern Pass.    1
+Obtained from the Alliance winning the Battle for Alterac Valley event.     1
+Obtained by owning 25 Fractured in Alterac Valley Legendary cards.          1
+Name: count, dtype: int64
+10
+____________________________________
+multiClassGroup
+14
+[nan 'Mage Rogue' 'Hunter Demon Hunter' 'Druid Shaman' 'Priest Warlock'
+ 'Paladin Warrior' 'Grimy Goons' 'Kabal' 'Jade Lotus'
+ 'Warlock Demon Hunter' 'Druid Hunter' 'Mage Shaman' 'Paladin Priest'
+ 'Rogue Warrior']
+------------
+multiClassGroup
+Druid Shaman            11
+Warlock Demon Hunter    10
+Hunter Demon Hunter      9
+Priest Warlock           9
+Druid Hunter             9
+Mage Shaman              9
+Mage Rogue               8
+Paladin Warrior          8
+Rogue Warrior            7
+Paladin Priest           5
+Grimy Goons              3
+Kabal                    3
+Jade Lotus               3
+Name: count, dtype: int64
+13
+____________________________________
+classes
+17
+[nan "['Mage', 'Rogue']" "['Hunter', 'Demon Hunter']"
+ "['Hunter', 'Warrior']" "['Druid', 'Priest']" "['Priest', 'Warlock']"
+ "['Paladin', 'Shaman']" "['Druid', 'Shaman']" "['Paladin', 'Warrior']"
+ "['Hunter', 'Paladin', 'Warrior']" "['Mage', 'Priest', 'Warlock']"
+ "['Druid', 'Rogue', 'Shaman']" "['Warlock', 'Demon Hunter']"
+ "['Druid', 'Hunter']" "['Mage', 'Shaman']" "['Paladin', 'Priest']"
+ "['Rogue', 'Warrior']"]
+------------
+classes
+['Priest', 'Warlock']               12
+['Warlock', 'Demon Hunter']         12
+['Mage', 'Rogue']                   11
+['Druid', 'Shaman']                 11
+['Hunter', 'Demon Hunter']          10
+['Druid', 'Hunter']                  9
+['Mage', 'Shaman']                   9
+['Paladin', 'Warrior']               8
+['Mage', 'Priest', 'Warlock']        7
+['Rogue', 'Warrior']                 7
+['Paladin', 'Priest']                5
+['Druid', 'Priest']                  4
+['Hunter', 'Warrior']                3
+['Paladin', 'Shaman']                3
+['Hunter', 'Paladin', 'Warrior']     3
+['Druid', 'Rogue', 'Shaman']         3
+Name: count, dtype: int64
+16
+____________________________________
