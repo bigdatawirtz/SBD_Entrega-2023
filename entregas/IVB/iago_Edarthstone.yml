@@ -1,4 +1,4 @@
-name: sistemas
+name: iago2
 channels:
   - plotly
   - conda-forge
